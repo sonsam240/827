@@ -1,0 +1,182 @@
+{
+    "asset": {
+        "copyright": "2019 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 0897bb3786688dd8ac0e16e7ca439aa83b5dca11",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 4976,
+            "type": "VEC3",
+            "max": [
+                7.75,
+                2.0,
+                7.75
+            ],
+            "min": [
+                -7.75,
+                0.0,
+                -7.75
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 4976,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 4976,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 27024,
+            "type": "SCALAR",
+            "max": [
+                4975.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 59712,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 59712,
+            "byteLength": 59712,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 119424,
+            "byteLength": 39808,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 159232,
+            "byteLength": 108096,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 267328,
+            "uri": "orange0_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.9960780143737793,
+                    0.07058820128440857,
+                    0.0,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.20000000298023225
+            },
+            "name": "Material__45"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "capbot003",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                -1.5099700689315797,
+                -0.7877407670021057,
+                0.48775169253349306
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                0.000004272460955689894,
+                0.0,
+                -0.00000801086389401462
+            ],
+            "rotation": [
+                1.3980798030388542e-7,
+                -0.1950903981924057,
+                2.0213002827063066e-8,
+                0.9807852506637573
+            ],
+            "name": "unnamed"
+        },
+        {
+            "scale": [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ],
+            "mesh": 0,
+            "name": "capbot003"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
